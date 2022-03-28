@@ -1,4 +1,4 @@
-public class doitjava01_02 {
+public class doit01_02 {
     public static void main(String[] args) {
         int num1 = 0B00000000000000000000000000000101;
         int num2 = 0B11111111111111111111111111111011;

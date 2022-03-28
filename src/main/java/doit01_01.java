@@ -1,4 +1,4 @@
-public class doitjava01_01 {
+public class doit01_01 {
     public static void main(String[] args) {
 
         int num=10;
