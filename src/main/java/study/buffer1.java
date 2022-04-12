@@ -17,7 +17,7 @@ public class buffer1 {
         }
         br.close();
 
-        bw.close(); //입력받은 모든거 다 꺼내주기
+        bw.flush(); //입력받은 모든거 다 꺼내주기
         bw.close();
 
     }
