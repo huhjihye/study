@@ -10,7 +10,7 @@ public class collection {
         //list 객체에 데이터 추가하기
         list.add("허지혜");
         list.add("허지원");
-        list.add("황지미");
+        list.add("임상원");
         list.add("둘리");
 
         //List의 데이터 수 구하기
