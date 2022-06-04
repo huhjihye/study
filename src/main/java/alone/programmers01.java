@@ -1,9 +1,19 @@
 package alone;
+
+import java.util.Scanner;
+
 //두 정수 left와 right가 매개변수로 주어집니다.
 // left부터 right까지의 모든 수들 중에서,
 // 약수의 개수가 짝수인 수는 더하고,
 // 약수의 개수가 홀수인 수는 뺀 수를 return 하도록 solution 함수를 완성해주세요.
 public class programmers01 {
+    public static void main(String[] args) {
+        programmers01 p1=new programmers01();
+        Scanner sc= new Scanner(System.in);
+        int left=sc.nextInt();
+        int right=sc.nextInt();
+        p1.solution(left, right);
+    }
 
     public int solution(int left, int right){
         int answer =0;
@@ -18,6 +28,7 @@ public class programmers01 {
             }
             answer +=sum%2 ==0 ? i: -i; // 짝수면 +1 해주고 아니면 -1해줌
         }
+        System.out.println(answer);
         return answer;
 
     }
