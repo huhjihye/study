@@ -18,56 +18,6 @@ public class jun_25205 {
                 System.out.println(0);
             }
 
-            /*for(int i=0; i<arr.length;i++){
-                if(li.equals(arr[i])){
-                    System.out.println(1);
-
-                }else{
-                    System.out.println(0);
-
-                }
-                break;
-            }*/
-            /*if(li.equalsIgnoreCase(arr)){
-                System.out.println(1);
-            }else{
-                System.out.println(0);
-            }
-
-*/
-
-            /*if(li.equals("r")){
-                System.out.println(1);
-            }else if(li.equals("s")){
-                System.out.println(1);
-            }else if(li.equals("e")){
-                System.out.println(1);
-            }else if(li.equals("f")){
-                System.out.println(1);
-            }else if(li.equals("a")){
-                System.out.println(1);
-            }else if(li.equals("q")){
-                System.out.println(1);
-            }else if(li.equals("t")){
-                System.out.println(1);
-            }else if(li.equals("d")){
-                System.out.println(1);
-            }else if(li.equals("w")){
-                System.out.println(1);
-            }else if(li.equals("c")){
-                System.out.println(1);
-            }else if(li.equals("z")){
-                System.out.println(1);
-            }else if(li.equals("x")){
-                System.out.println(1);
-            }else if(li.equals("y")){
-                System.out.println(1);
-            }else if(li.equals("g")){
-                System.out.println(1);
-            }else{
-                System.out.println(0);
-            }
-*/
         }
     }
 
